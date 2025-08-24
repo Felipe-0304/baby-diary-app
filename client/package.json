@@ -27,7 +27,7 @@
     "tailwindcss": "^3.3.3"
   },
   "scripts": {
-    "start": "cross-env WDS_ALLOWED_HOSTS=all HOST=localhost react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -46,3 +46,4 @@
     ]
   }
 }
+
