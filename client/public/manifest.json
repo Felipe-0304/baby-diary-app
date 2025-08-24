@@ -1,0 +1,17 @@
+{
+  "short_name": "Baby Diary",
+  "name": "Diario del Bebé - Embarazo",
+  "description": "Aplicación completa para llevar un diario del embarazo con fotos, videos y seguimiento médico",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f472b6",
+  "background_color": "#f1f5f9",
+  "categories": ["health", "lifestyle", "family"]
+}

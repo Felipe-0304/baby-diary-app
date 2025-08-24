@@ -1,0 +1,25 @@
+{
+  "name": "baby-diary-app",
+  "version": "1.0.0",
+  "description": "Aplicación completa para diario de embarazo",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm start",
+    "build": "npm run client:build && npm run server:build",
+    "client:build": "cd client && npm run build",
+    "server:build": "cd server && npm run build",
+    "start": "cd server && npm start",
+    "setup": "node scripts/setup.js",
+    "backup": "node scripts/backup.js",
+    "migrate": "node scripts/migrate.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
